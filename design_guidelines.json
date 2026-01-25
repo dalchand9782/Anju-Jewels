@@ -1,0 +1,163 @@
+{
+  "typography": {
+    "font_family": {
+      "headings": "Playfair Display, serif",
+      "body": "Manrope, sans-serif",
+      "accent": "Cormorant Garamond, serif"
+    },
+    "weights": {
+      "light": 300,
+      "regular": 400,
+      "medium": 500,
+      "bold": 700
+    },
+    "sizes": {
+      "h1": "text-4xl md:text-6xl tracking-tight",
+      "h2": "text-3xl md:text-5xl tracking-tight",
+      "h3": "text-2xl md:text-3xl",
+      "body": "text-base md:text-lg leading-relaxed",
+      "small": "text-sm tracking-wide uppercase"
+    },
+    "installation": "Import fonts via Google Fonts in index.css: @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Manrope:wght@300;400;500;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap');"
+  },
+  "colors": {
+    "palette": {
+      "primary": "#E0C097",
+      "primary_foreground": "#2D2D2D",
+      "secondary": "#FDFBF7",
+      "secondary_foreground": "#2D2D2D",
+      "accent": "#FCEDEF",
+      "accent_foreground": "#5A3E3E",
+      "background": "#FDFBF7",
+      "foreground": "#2D2D2D",
+      "muted": "#F5F0EB",
+      "muted_foreground": "#8A8A8A",
+      "border": "#EAE0D5",
+      "input": "#F5F0EB",
+      "ring": "#E0C097"
+    },
+    "usage": {
+      "background": "Use #FDFBF7 (Cream) as the main canvas. Avoid pure white.",
+      "text": "Use #2D2D2D (Charcoal) for headings, #5A5A5A for body. Never pure black.",
+      "cta": "Use #E0C097 (Rose Gold) for primary buttons. Hover state: #D4B088.",
+      "subtle": "Use #FCEDEF (Soft Pink) for highlights, badges, or active states."
+    }
+  },
+  "visual_enhancers": {
+    "radius": "rounded-xl",
+    "shadows": {
+      "soft": "0 4px 20px -2px rgba(224, 192, 151, 0.15)",
+      "hover": "0 10px 30px -4px rgba(224, 192, 151, 0.25)",
+      "inner": "inset 0 2px 4px 0 rgba(0, 0, 0, 0.02)"
+    },
+    "glassmorphism": {
+      "nav": "bg-white/70 backdrop-blur-md border-b border-white/20",
+      "card": "bg-white/50 backdrop-blur-sm border border-white/40"
+    },
+    "gradients": {
+      "hero": "linear-gradient(135deg, #FDFBF7 0%, #FCEDEF 100%)",
+      "shimmer": "linear-gradient(90deg, transparent, rgba(255,255,255,0.5), transparent)"
+    }
+  },
+  "component_name": {
+    "button": "Shadcn Button (customized)",
+    "card": "Shadcn Card (customized)",
+    "input": "Shadcn Input (customized)",
+    "dialog": "Shadcn Dialog",
+    "sheet": "Shadcn Sheet (for mobile menu/cart)",
+    "carousel": "Shadcn Carousel",
+    "tabs": "Shadcn Tabs"
+  },
+  "grids": {
+    "marketing": "grid grid-cols-1 md:grid-cols-12 gap-8 (Tetris Mode)",
+    "product_list": "grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-12",
+    "dashboard": "grid grid-cols-1 md:grid-cols-4 gap-6 (High Density)"
+  },
+  "layouts": {
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "section_spacing": "py-16 md:py-24",
+    "mobile_nav": "Fixed bottom navigation bar for app-like feel on mobile (Home, Search, Cart, Profile)"
+  },
+  "motion": {
+    "hover": "transition-all duration-300 ease-out hover:-translate-y-1",
+    "fade_in": "animate-in fade-in duration-700 slide-in-from-bottom-4",
+    "stagger": "stagger-children-100"
+  },
+  "accessibility": {
+    "contrast": "Ensure text on #E0C097 is dark (#2D2D2D).",
+    "focus": "ring-2 ring-offset-2 ring-[#E0C097]",
+    "aria": "All interactive elements must have aria-labels if no text is present."
+  },
+  "media": {
+    "aspect_ratios": {
+      "product": "aspect-[3/4] object-cover",
+      "hero": "aspect-[16/9] md:aspect-[21/9] object-cover"
+    },
+    "treatment": "Apply subtle warmth filter (sepia: 5%) to all images to match the cream palette."
+  },
+  "image_urls": {
+    "hero": [
+      {
+        "url": "https://images.unsplash.com/photo-1593260853607-d0e0f639bdab",
+        "alt": "Korean woman with flower jewelry portrait",
+        "category": "hero"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1551442063-549b40c4fa75",
+        "alt": "Lifestyle woman in pink dress",
+        "category": "hero_secondary"
+      }
+    ],
+    "products": {
+      "earrings": [
+        "https://images.unsplash.com/photo-1629297777138-6ae859d4d6df",
+        "https://images.unsplash.com/photo-1617030557822-c8c35f07c60b"
+      ],
+      "rings": [
+        "https://images.unsplash.com/photo-1588909006332-2e30f95291bc",
+        "https://images.unsplash.com/photo-1592752411501-b62f219cf9e2"
+      ],
+      "necklaces": [
+        "https://images.pexels.com/photos/6889924/pexels-photo-6889924.jpeg",
+        "https://images.unsplash.com/photo-1629297777109-167b5d2bbba4"
+      ],
+      "bracelets": [
+        "https://images.pexels.com/photos/7642066/pexels-photo-7642066.jpeg",
+        "https://images.unsplash.com/photo-1588559674156-c5984ed49b1c"
+      ]
+    },
+    "placeholders": {
+      "user": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=64&h=64"
+    }
+  },
+  "instructions_to_main_agent": [
+    "1. THEME SETUP: Update tailwind.config.js with the 'colors' defined above. Override the default 'primary', 'secondary', 'background' to match the Cream/Rose Gold palette.",
+    "2. FONT SETUP: Add the Google Fonts import to index.css immediately.",
+    "3. MOBILE FIRST: Implement a 'Bottom Navigation Bar' component that only appears on mobile (hidden md:block). It should have icons for Home, Categories, Cart, Profile.",
+    "4. LAYOUT: The Home page must use the 'Tetris' grid for the 'Featured Collections' section. Do not just stack images.",
+    "5. PRODUCT CARD: Create a 'ProductCard' component. It should be minimal: Image (aspect 3/4), Title (Serif), Price (Sans), and a subtle 'Add to Cart' button that appears on hover (desktop) or always visible (mobile).",
+    "6. ADMIN DASHBOARD: Use the 'High Density' grid. Keep it clean but dense. Use the 'muted' color for the dashboard background to differentiate from the main store.",
+    "7. IMAGES: Use the provided image_urls. Do not use placeholders. Randomly assign the product images to the sample data.",
+    "8. ANIMATIONS: Add 'framer-motion' for page transitions. When clicking a product, the image should layout-id transition if possible, or at least fade in smoothly."
+  ],
+  "UNIVERSAL_GUIDELINES_FOR_MAIN_AGENT": [
+    "Dark colors look good when used independently without gradients. DO NOT use dark colors as gradients",
+    "Don't make generic centered layouts, simplistic gradients, and uniform styling.",
+    "Create depth through layered design elements with z-index hierarchy",
+    "Use glass-morphism effects with backdrop filters (12-24px blur)",
+    "You MUST NOT apply universal transition. Eg: transition: all. This results in breaking transforms. Always add transitions for specific interactive elements like button, input excluding transforms",
+    "You MUST NOT center align the app container, ie do not add .App { text-align: center; } in the css file. This disrupts the human natural reading flow of text",
+    "Always use modern button styles like pill-shaped, or sharp button with interaction animations & color relevant to the app style",
+    "NEVER: use AI assistant Emoji characters like 🤖🧠💭💡🔮🎯📚🎭🎬🎪🎉🎊🎁🎀🎂🍰🎈🎨🎰💰💵💳🏦💎🪙💸🤑📊📈📉💹🔢🏆🥇 etc for icons.",
+    "Every interaction needs micro-animations - hover states, transitions, parallax effects, and entrance animations. Static = dead.",
+    "Use 2-3x more spacing than feels comfortable. Cramped designs look cheap.",
+    "Subtle grain textures, noise overlays, custom cursors, selection states, and loading animations: separates good from extraordinary.",
+    "Main agent relies on these image URLs. Missing categories (especially sponsor logos) = main agent will use placeholder text which is FORBIDDEN",
+    "Prioritize using pre-existing components from src/components/ui when applicable",
+    "Create new components that match the style and conventions of existing components when needed",
+    "Examine existing components to understand the project's component patterns before creating new ones",
+    "Components MUST use named exports (export const ComponentName = ...)",
+    "Pages MUST use default exports (export default function PageName() {...})",
+    "Use sonner for toasts. Sonner component are located in /app/src/components/ui/sonner.tsx"
+  ]
+}
