@@ -52,9 +52,7 @@ export default function Home() {
             transition={{ duration: 0.8 }}
           >
             <h1 className="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-4 tracking-tight" data-testid="hero-title">
-              Elegance
-              <br />
-              Redefined
+              Elegant Korean Jewellery   
             </h1>
             <p className="text-base md:text-lg text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
               Discover our curated collection of premium Korean jewelry

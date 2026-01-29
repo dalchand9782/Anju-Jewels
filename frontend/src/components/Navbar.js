@@ -4,6 +4,7 @@ import { ShoppingCart, User, LogOut, LayoutDashboard } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 import { useCart } from '../contexts/CartContext';
 import { Button } from './ui/button';
+import logo from '../images/Logo_Black.png';
 
 export const Navbar = () => {
   const { user, logout } = useAuth();
@@ -20,9 +21,11 @@ export const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16 md:h-20">
           <Link to="/" className="flex items-center" data-testid="logo-link">
-            <h1 className="text-2xl md:text-3xl font-heading font-bold text-foreground tracking-tight">
-              LuxeJewel
-            </h1>
+              <img 
+                src={logo} 
+                alt="Anju Jewels" 
+                className="h-8 w-auto object-contain">
+              </img>
           </Link>
 
           <div className="hidden md:flex items-center space-x-8">
